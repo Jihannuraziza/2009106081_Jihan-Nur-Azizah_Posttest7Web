@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.signup {
+    position: absolute;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: #5dcffc;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, .1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.signup h3 {
+    margin: 0 auto;
+    padding: 15px;
+    color: #c51ab7;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.signup .border {
+    width: 70px;
+    height: 3px;
+    background-color: #529dff;
+    margin: 1px auto;
+}
+
+.signup input {
+    padding: 5px 0;
+    margin-bottom: 20px;
+}
+
+.signup textarea {
+    height: 100px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.signup input,
+.signup textarea {
+    width: 300px;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    border: 2px solid #7DE5ED;
+}
+
+.signup input[type="submit"]{
+    border: 1px solid #7DE5ED;
+    cursor: progress;
+    color: #fff;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.signup form div {
+    position: relative;
+}
+
+.signup input[type="submit"]{
+    background: #3c59ff;
+}
